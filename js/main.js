@@ -34,7 +34,7 @@ function makeChart(data) {
           "balloonText": "[[title]] of [[category]]:[[value]]",
           "customMarker": "",
           "fillAlphas": 1,
-          "fillColors": data.barColor,
+          "fillColors": data.finishedColor,
           "fontSize": -3,
           "gapPeriod": 0,
           "id": "AmGraph-1",
@@ -54,7 +54,7 @@ function makeChart(data) {
         {
           "balloonText": "[[title]] of [[category]]:[[value]]",
           "fillAlphas": 1,
-          "fillColors": "#5E3244",
+          "fillColors": data.unfinishedColor,
           "id": "AmGraph-2",
           "lineAlpha": 0,
           "showBalloon": false,
