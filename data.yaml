@@ -1,0 +1,5 @@
+charts:
+  - label: onion%
+    barColor: "#EE2050"
+    unfinished: 22
+    finished: 4
