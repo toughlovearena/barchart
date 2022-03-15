@@ -2,5 +2,5 @@ charts:
   - label: onion%
     finishedColor: "#EE2050"
     unfinishedColor: "#5E3244"
-    finished: 4
-    unfinished: 22
+    finished: 6
+    unfinished: 20
