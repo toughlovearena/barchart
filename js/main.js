@@ -3,8 +3,11 @@ function makeChart(data) {
   const nextId = 'chart-' + Array.from(container.children).length;
 
   const nextDiv = document.createElement('div');
-  nextDiv.id = nextId;
-  nextDiv.classList.add('bar');
+  nextDiv.classList.add('container');
+  const nextBar = document.createElement('div');
+  nextBar.id = nextId;
+  nextBar.classList.add('bar');
+  nextDiv.appendChild(nextBar);
   container.appendChild(nextDiv);
 
   AmCharts.makeChart(nextId,

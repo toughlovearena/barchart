@@ -3,14 +3,58 @@
 
 <head>
   <title>TLA Art Progress</title>
-  <link rel="shortcut icon" href="https://toughlovearena.com/favicon300.png" />
+  <link rel="shortcut icon" href="favicon.png" />
   <!-- <meta name="description" content="chart created using amCharts live editor" /> -->
 
   <style type="text/css">
+    body {
+      margin: 0;
+      font-size: 20px;
+      color: white;
+      background-color: black;
+    }
+
+    header {
+      text-align: center;
+      margin: 25px;
+    }
+
+    header img {
+      height: 100px;
+      width: auto;
+    }
+
+    header .subtitle {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin-top: 1em;
+      padding: 0 2em;
+    }
+
+    #charts {
+      width: 100%;
+      padding: 0 50px;
+      box-sizing: border-box;
+    }
+
+    .container {
+      padding: 50px;
+      background-color: #EEEEEE;
+      border: 2px solid rgba(0, 0, 0, 0.5);
+      border-radius: 20px;
+    }
+
     .bar {
       width: 100%;
-      height: 100vh;
-      background-color: #EEEEEE;
+      height: calc(100vh - 350px);
+    }
+
+    @media (max-width: 600px) {
+
+      header img {
+        height: auto;
+        width: 90%;
+        margin: 0 auto;
+      }
     }
   </style>
 
@@ -21,6 +65,14 @@
 </head>
 
 <body>
+  <header>
+    <div>
+      <img src="images/logo_beta.png" alt="Tough Love Arena" />
+    </div>
+    <div class="subtitle">
+      Up to date progress charts on our current art projects
+    </div>
+  </header>
   <div id="charts"></div>
 </body>
 
