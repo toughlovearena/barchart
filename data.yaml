@@ -1,5 +1,7 @@
 charts:
-  - label: onion%
+  - title: Onion
+    yaxis: onion%
+    barLabel: ":3"
     finishedColor: "#EE2050"
     unfinishedColor: "#5E3244"
     finished: 6

@@ -1,3 +1,13 @@
+// interface data {
+//   title: string;
+//   yaxis: string;
+//   barLabel: string;
+//   finishedColor: string;
+//   unfinishedColor: string;
+//   finished: number;
+//   unfinished: number;
+// }
+
 function makeChart(data) {
   const container = document.getElementById("charts");
   const nextId = 'chart-' + Array.from(container.children).length;
@@ -44,7 +54,7 @@ function makeChart(data) {
           "labelAnchor": "middle",
           "labelPosition": "middle",
           "labelRotation": 90,
-          "labelText": ":3",
+          "labelText": data.barLabel,
           "lineAlpha": 0,
           "minDistance": 0,
           "showBalloon": false,
@@ -90,12 +100,12 @@ function makeChart(data) {
           "bold": false,
           "id": "Title-1",
           "size": 25,
-          "text": "Onion"
+          "text": data.title,
         }
       ],
       "dataProvider": [
         {
-          category: data.label,
+          category: data.yaxis,
           unfinished: data.unfinished,
           finished: data.finished,
         },
