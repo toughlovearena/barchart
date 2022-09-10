@@ -4,5 +4,5 @@ charts:
     barLabel: ":3"
     finishedColor: "#EE2050"
     unfinishedColor: "#5E3244"
-    finished: 22
-    unfinished: 4
+    finished: 24
+    unfinished: 2
