@@ -1,8 +1,8 @@
 charts:
-  - title: Onion
-    yaxis: onion%
-    barLabel: ":3"
-    finishedColor: "#EE2050"
-    unfinishedColor: "#5E3244"
-    finished: 26
-    unfinished: 0
+  - title: Garlic
+    yaxis: garlic%
+    barLabel: ">:3c"
+    finishedColor: "#ff48fa"
+    unfinishedColor: "#e1ff48"
+    finished: 0
+    unfinished: 26
